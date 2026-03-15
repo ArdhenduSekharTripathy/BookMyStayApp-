@@ -41,13 +41,13 @@ class SuiteRoom extends Room {
     }
 }
 
-public class UseCase2RoomInitialization {
+public class UseCase2BookMyStayApp {
 
     public static void main(String[] args) {
 
-        SingleRoom single = new SingleRoom();
-        DoubleRoom doubleRoom = new DoubleRoom();
-        SuiteRoom suite = new SuiteRoom();
+        Room single = new SingleRoom();
+        Room doubleRoom = new DoubleRoom();
+        Room suite = new SuiteRoom();
 
         int singleAvailability = 5;
         int doubleAvailability = 3;
